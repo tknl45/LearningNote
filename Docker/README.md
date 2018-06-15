@@ -12,9 +12,14 @@
 
 > docker container create pushproxy:2.1
 
-執行服務\(背景執行\)
+執行服務
 
 > docker container run --rm -d -p 800:80 pushproxy:2.1
+
+背景執行 -d 
+
+設定對外port -p {外部}:{內部}
+
 
 查看container\(已建立\)
 
